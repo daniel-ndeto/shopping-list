@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* Main Container */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Input Container */
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Shopping List Styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.item-date {
+  font-size: 0.8rem;
+  color: #888;
+  margin-left: 10px;
+}
+
+.delete-button {
+  background: #dc3545;
+}
+
+.delete-button:hover {
+  background: #c82333;
+}
