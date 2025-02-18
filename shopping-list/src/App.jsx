@@ -4,21 +4,21 @@ function App() {
   const [item, setItem] = useState("");
   const [list, setList] = useState([]);
 
-  // adding a new item with the current date and time
+  // adding a new item 
   const addItem = () => {
     if (item.trim() === "") return;
 
     const newItem = {
-      id: Date.now(), //  current timestamp
+      id: Date.now(),
       text: item,
-      date: new Date().toLocaleString() // date string
+      date: new Date().toLocaleString() 
     };
 
     setList([...list, newItem]);
-    setItem(""); // Clear input field after adding
+    setItem(""); // Clearing input field after adding
   };
 
-  // Function to delete an item by filtering it out from the list
+  // deleting an item 
   const deleteItem = (id) => {
     setList(list.filter(item => item.id !== id));
   };
