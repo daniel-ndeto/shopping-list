@@ -1,4 +1,4 @@
-# Shopping List
+![image](https://github.com/user-attachments/assets/7184da3f-1ae1-47bd-9a30-a0d6790fa622)# Shopping List
 
 This is a simple shopping list application.
 
@@ -13,6 +13,8 @@ This is a simple shopping list application.
 - JavaScript
 - CSS
 - HTML
+## To start the application run
+nmp run dev
 
 ## Setup
 
@@ -32,3 +34,6 @@ This is a simple shopping list application.
 ## License
 
 This project is licensed under the MIT License.
+
+![image](https://github.com/user-attachments/assets/10b59f95-79c5-4b4c-b285-da69dc661d5e)
+
